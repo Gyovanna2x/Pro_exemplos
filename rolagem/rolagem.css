@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pag1{
+    background-color: #ff99c8;
+}
+.pag2{
+    background-color: #fcf6bd;
+}
+pag3{
+    background-color: #d0f4de;
+}
+.pag4{
+    background-color: #a9def9;
+}
+.pag5{
+background-color: #e4c1f9;
+}
+.interface{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+.interface section{
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: sticky;
+left: 0;
+
+    top: 0;
+}

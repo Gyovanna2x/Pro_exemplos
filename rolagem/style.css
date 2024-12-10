@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", monospace;
+    font-size: 1.2rem;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(imagen/NCT\ WALLPAPER\ PC.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width: 800px;
+    background-color: transparent;
+    padding: 40px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    backdrop-filter: blur(0px);
+    overflow: hidden;
+    transition: backdrop-filter 1s;
+}
+.text{
+    color: #cef119;
+    position: relative;
+    top: 200px;
+    transition: top 1s;
+}
+.container:hover .text{
+    top: 0;
+}
+.container:hover{
+    backdrop-filter: blur(10px);
+}

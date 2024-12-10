@@ -1,0 +1,222 @@
+:root {
+  --main-color: #15422c;
+  --back-color: #dde5b6;
+  --black: #588157;
+  --bg: #f8f9f8;
+  --border: 0.1rem solid #d1dab7;
+}
+
+* {
+  font-family: "Roboto", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+body {
+  background-color: var(--bg);
+  font-family: "Roboto", monospace;
+}
+
+header {
+  background-color: #f8f9f831;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header img {
+  height: 6rem;
+}
+
+header .navbar a {
+  margin: 1rem;
+  font-size: 25px;
+  color: #15422c;
+}
+
+header .navbar a:houver {
+  color: var(--bg);
+  border-bottom: 1rem solid var(--main-color);
+  padding-bottom: 0.5rem;
+}
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(imagens/florPrincipal.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .conteudo {
+  max-width: 60rem;
+  padding-left: 2rem;
+}
+
+.home .conteudo h3 {
+  font-size: 6rem;
+  color: #FBF9F1;
+}
+
+.home .conteudo p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  line-height: 1.8;
+  padding: 1rem;
+  color: #FBF9F1;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1.5rem;
+  font-size: 1rem;
+  color: #FBF9F1;
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+.btn:hover {
+  letter-spacing: 0.1rem;
+  background-color: var(--back-color);
+}
+
+.sobre .conteudo2 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: var(--black);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #dde5b6;
+  font-family: "Roboto", monospace;
+
+}
+
+.foto_sobre {
+  width: 100%;
+  height: 250px;
+  margin-right: 1rem;
+  background-color: #FBF9F1;
+}
+
+.foto_sobre img {
+  width: 100%;
+  height: 250px;
+  background-image: url(imagens/florista.jpg);
+}
+
+.sobre .conteudo2 .texto_sobre p {
+  font-size: 1.2rem;
+  color: #FBF9F1;
+  line-height: 1.8;
+}
+
+.sobre .conteudo2 h3 {
+  font-size: 3rem;
+  color: #FBF9F1;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: #FBF9F1;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-size: 3rem;
+}
+
+.heading span {
+  color: var(--main-color);
+  margin-top: px;
+}
+
+.menu_promocoes .box_container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+  border-radius: 10px;
+}
+
+.menu_promocoes .box_container .box {
+  padding: 3rem;
+  text-align: center;
+  border: var(--border);
+  height: 600px;
+  border-radius: 10px;
+  background-color: #d1dab7;
+}
+
+.menu_promocoes .box_container .box h3 {
+  color: #FBF9F1;
+  font-size: 25px;
+  padding: 1rem;
+}
+
+.menu_promocoes .box_container .box .preco_ {
+  color: #FBF9F1;
+  font-size: 1.2rem;
+  padding: 5rem 0;
+}
+
+.menu_promocoes .box_container .box .preco span {
+  font-size: 0.9rem;
+  text-decoration: line-through;
+  font-weight: lighter;
+}
+
+.menu_promocoes .box_container .box:hover {
+  background-color: #FBF9F1;
+}
+
+.menu_promocoes .box_container .box:hover{
+  color: var(--black);
+}
+
+.rodape {
+  color: #FBF9F1;
+}
+
+.heading2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #FBF9F1;
+  font-size: 3rem;
+  padding-top: 50px;
+}
+
+.heading2 span {
+  color: var(--main-color);
+  margin-top: px;
+}
+
+.rodape h1 {
+  color: #15422c;
+}
+.mapa{
+  display: flex;
+  margin: 0 auto;
+}
+.localizacao {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.local{
+margin-left: 200px;
+}

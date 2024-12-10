@@ -1,0 +1,213 @@
+:root {
+    --letra: #000000;
+    --spans: #00000074;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s linear;
+    background-color: #ffffff;
+    font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: var(--letra);
+}
+
+li:hover {
+    text-decoration: underline;
+    color: #31363F;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 500px;
+    margin-top: 15px;
+}
+
+#banner {
+    margin-top: 150px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#famo {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--letra);
+}
+
+#vali {
+    color: #00000029;
+    margin-top: 10px;
+    text-align: center
+}
+
+.btn {
+    margin-top: 1rem;
+    padding: 17px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: var(--letra);
+    border-radius: 50px;
+}
+
+#botu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #31363F;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card h2 {
+    font-family: helvetica;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-family: helvetica;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: #ebffff;
+}
+
+.card span {
+    text-decoration: line-through;
+    color: var(--spans);
+}
+
+#promo {
+    color: #31363F;
+    margin-left: 355px;
+    margin-top: 20px;
+}
+#box-container{
+    display: flex;
+    gap: 28px;
+    margin-top: 20px;
+margin-left: 350px;
+}
+#banner2{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#adidas{
+    margin-left: 355px;
+    margin-top: 50px;
+}
+#adidas2{
+    
+    text-align: center;
+    margin-top: 20px;
+    color: var(--letra);
+}
+#adidas2 p {
+    color: #000000;
+    margin-top: 10px;
+}
+
+
+#banner3{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nike2{
+    text-align: center;
+    margin-top: 20px;
+    color: var(--letra);
+}
+#nike2 p {
+    color: #000000;
+    margin-top: 10px;
+}
+#nike{
+    margin-left: 355px;
+    margin-top: 50px;
+}
+
+
+#banner4{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#puma2{
+    text-align: center;
+    margin-top: 20px;
+    color: var(--letra);
+}
+#puma2 p {
+    color: #000000;
+    margin-top: 10px;
+}
+#puma{
+    margin-left: 355px;
+    margin-top: 50px;
+}

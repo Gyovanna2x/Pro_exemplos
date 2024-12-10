@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 500vh;
+}
+.container{
+max-width: 1280px;
+margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+header.rolagem{
+    background-color: #fff;
+    padding: 20px 4%;
+}
+header.rolagem a{
+    color: #a1e417;
+}
+header ul{
+    list-style-type: nome;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+header ul li a{
+    color: #a1e417;
+    text-decoration: none;
+    font-size: 30px;
+}
+.btn button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #a1e417;
+    color: #fff;
+    transition: 2s;
+}
+.banner {
+    background-image: url(imagen/Dream.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner h1{
+    font-size: 4rem;
+    color: #a1e417;
+}

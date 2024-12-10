@@ -1,0 +1,1 @@
+alert('Tira a mão')
